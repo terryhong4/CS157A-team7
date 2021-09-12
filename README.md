@@ -1,2 +1,9 @@
 # CS157A-team7
-Github for our Database Project 
+This is the respository for our database project.
+
+# Contributors
+<pre>
+Terry Hong         <br />
+Alexis Chan        <br />
+Richard Tumaneng   <br />
+</pre> 
