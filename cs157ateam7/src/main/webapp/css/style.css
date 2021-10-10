@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+/* 
+  Color Palette:
+  #CCE6F4   // Colombia Light Blue, Background color
+  #4BA3C3   // Maximum Blue, Background Color 2
+  #BA324F   // Bright Maroon Red, call-to-action button Accent color
+  #175676   // Blue Sapphire, Border color
+  #D62839   // Crimson, Alert color
+
+  60-30-10 rule: 
+  One neutral color makes up 60% of the color palette
+  Second complementary color makes up 30% of the palette
+  Third accent color makes up 10% of the palette to add emphasis
+
+  Other Colors:
+  #FF5964   // Rose Red
+  #38618C   // Lapis Lazuli dark bluish
+  #35A7FF   // Blue jeans blueish
+  #883677   // Violet Crayola Purple
+*/
+
+:root {
+	--background-theme: #CCE6F4;
+}
+
+* {
+	padding: 0 px;
+  	margin: 0 px;
+}
+
+body {
+	background-color: var(--background-theme);
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
